@@ -30,6 +30,7 @@ deploy:
         - script:
             name: Install packages
             code: |
+              env
               apt-get update --fix-missing
         - install-packages:
             packages: wget
