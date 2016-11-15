@@ -43,3 +43,4 @@ deploy:
             alt_appname: scale-demo-green
             domain: $CF_DOMAIN
             hostname: scale
+            skip_ssl: $CF_SKIP_SSL_VALIDATION
