@@ -42,5 +42,5 @@ deploy:
             appname: scale-demo-blue
             alt_appname: scale-demo-green
             domain: $CF_DOMAIN
-            hostname: scale-demo
+            hostname: scale-demo-mmb
             skip_ssl: $CF_SKIP_SSL_VALIDATION
